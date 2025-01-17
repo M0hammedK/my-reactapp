@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "myfirst blog",
+      "body": "why we do use it?\nis a long istablished fact that areader will be distraction",
+      "author": "Mohammed",
+      "id": "1"
+    },
+    {
+      "title": "opening Party",
+      "body": "why we do use it?\nis a long istablished fact that areader will be distraction",
+      "author": "Ahmed",
+      "id": "2"
+    },
+    {
+      "id": "e916",
+      "title": "lorem ipsum",
+      "body": "\nLorem ipsum dolor sit amet consectetur adipisicing elit. Esse, velit! Aspernatur in voluptates maiores adipisci qui, veniam corporis tempora inventore quo, tenetur enim iusto necessitatibus perspiciatis magni cupiditate placeat nemo.\nEsse non ipsam accusantium quos provident placeat eos laboriosam in quibusdam nesciunt distinctio adipisci beatae, rem cupiditate reiciendis error accusamus corrupti hic cumque repellat nulla nihil. Veniam repellat autem dignissimos?\nHic quod aut iure incidunt, consequuntur beatae saepe recusandae tenetur voluptates sed sint numquam dolore quibusdam accusantium ex unde sapiente cum expedita optio suscipit eaque temporibus. Rem enim necessitatibus illo?",
+      "author": "Mohammed"
+    },
+    {
+      "id": "f549",
+      "title": "Hi",
+      "author": "Ali",
+      "body": "My name is Ali, Nice to meet you!"
+    }
+  ]
+}
