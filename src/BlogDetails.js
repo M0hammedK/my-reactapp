@@ -11,7 +11,7 @@ function BlogDetails() {
     data: blog,
     isLoading,
     error,
-  } = useFetch("http://localhost:3000/blogs/" + id);
+  } = useFetch(`${process.env.REACT_APP_BACKEND_URL}/blogs/` + id);
 
   const [deleteLoading, setDeleteLoading] = useState(false);
   const [deleteError, setDeleteError] = useState(false);
@@ -21,7 +21,7 @@ function BlogDetails() {
     setDeleteError(null);
     setDeleteLoading(true);
     setTimeout( () => {
-      fetch("http://localhost:3000/blogs/" + id, {
+      fetch(`${process.env.REACT_APP_BACKEND_URL}/blogs/` + id, {
         method: "DELETE"
       })
         .then((res) => {

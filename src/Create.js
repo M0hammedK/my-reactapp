@@ -2,7 +2,7 @@ import { useState } from "react";
 import usePost from "./usePost";
 function Create() {
   const [blog, setBlog] = useState("");
-  const { isLoading, error } = usePost("http://localhost:3000/blogs", blog);
+  const { isLoading, error } = usePost(`${process.env.REACT_APP_BACKEND_URL}/blogs`, blog);
 
   let author = "Mohammed",
     body = null,
