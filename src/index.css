@@ -28,3 +28,63 @@ a {
 .red {
   color: red;
 }
+
+.responsive {
+  /* General Reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* Typography */
+  font-size: 1rem; /* Base font size */
+  line-height: 1.5;
+  word-wrap: break-word;
+
+  /* Layout */
+  width: 100%;
+  max-width: 1200px; /* Optional max width */
+  margin: 0 auto; /* Center align */
+
+  /* Images and Media */
+  img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Flexbox for Containers */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+
+  /* Grid System */
+  > * {
+    flex: 1 1 100%; /* Full-width by default */
+  }
+
+  /* Media Queries for Responsiveness */
+  @media (min-width: 576px) {
+    > * {
+      flex: 1 1 calc(50% - 15px); /* Two columns */
+    }
+  }
+
+  @media (min-width: 768px) {
+    > * {
+      flex: 1 1 calc(33.333% - 15px); /* Three columns */
+    }
+  }
+
+  @media (min-width: 992px) {
+    > * {
+      flex: 1 1 calc(25% - 15px); /* Four columns */
+    }
+  }
+
+  @media (min-width: 1200px) {
+    > * {
+      flex: 1 1 calc(20% - 15px); /* Five columns */
+    }
+  }
+}
+

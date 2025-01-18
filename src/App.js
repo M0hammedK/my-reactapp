@@ -11,7 +11,7 @@ function App() {
     <div id="root" className="d-flex flex-column min-vh-100">
       <Router>
         <Navbar />
-        <main className="main_container flex-grow-1 grey">
+        <main className="main_container flex-grow-1 grey responsive">
           <div className="mycontainer">
             <Switch>
               <Route exact path="/">
